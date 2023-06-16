@@ -1,6 +1,10 @@
-console.log('hola');
+// console.log(process);
+//  console.log(process.env);
+// console.log(process.argv);
 
-console.warn('ocurrio algo inesperado');
+// for (let i = 2; i < process.argv.length; i++) {
+//     console.log(process.argv[i]);
+// }
 
 
-console.error( new Error('ocurrio un error'));
+console.log(process.memoryUsage());
