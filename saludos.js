@@ -8,7 +8,7 @@ function saludarHolaMundo() {
 
 // module.exports.saludar = saludar;
 // // module.exports.saludarHolaMundo = saludarHolaMundo; 
-// LO MISMO SE PUEDE ESCRBIR DENTRO DE UN OBJETO
+// LO MISMO SE PUEDE ESCRBIR DENTRO DE UN OBJETO - AMBAS OPCIONES SON EQUIVALENTES
 
 module.exports = {
     saludar: saludar,
