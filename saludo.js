@@ -2,5 +2,4 @@ function saludar(nombre) {
     return `Hola ${nombre}`;
 }
 
-console.log(saludar("Joe"));
-
+module.exports.saludar = saludar;
