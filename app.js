@@ -38,5 +38,12 @@ const fs = require('fs');
 
 // Eliminar un archivo
 
-fs.unlink('')
+fs.unlink('main.html', (err) => {
+ if (err) {
+
+ 
+  throw err;
+ }
+ console.log('archivo eliminado.');
+});
 
