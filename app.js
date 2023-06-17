@@ -36,4 +36,7 @@ const fs = require('fs');
 // });
 
 
+// Eliminar un archivo
+
+fs.unlink('')
 
