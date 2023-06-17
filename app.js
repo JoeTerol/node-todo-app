@@ -27,11 +27,13 @@ const fs = require('fs');
 //   console.log ('Archivo Actualizado')
 // });
 
-// Reemplazar el contenido del archivo.
 
-fs.writeFile('index.html', 'contenido Nuevo ', (err) => {
-  if (err) {
-    throw err;
-  } console.log('Contenido Reemplazado Exitosamente')
-});
+// Reemplazar el contenido del archivo.
+// fs.writeFile('index.html', 'contenido Nuevo ', (err) => {
+//   if (err) {
+//     throw err;
+//   } console.log('Contenido Reemplazado Exitosamente')
+// });
+
+
 
