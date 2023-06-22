@@ -7,7 +7,7 @@ let infoCurso = {
          "Node.js"
 
     ],
-    "esPubluico": true
+    "esPubluico": false
 };
 console.log(infoCurso);
 // CONVERTIUR UN OBJETO EN STRING
